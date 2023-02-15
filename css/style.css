@@ -24,9 +24,38 @@ body {
   background-color: var(--cream);
 }
 
-.card-component {
+/*.parfum-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border-radius: 10px;
+}
+*/
+
+.parfum-image {
+  text-align: center;
+  line-height: 100vh;
+}
+
+.center {
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.parfum-description {
+  background-color: #1c232b;
+  width: 200px;
+  height: 300px;
+}
+
+.parfum-description {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
+
 
