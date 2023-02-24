@@ -113,4 +113,28 @@ section {
   margin-right: 5px;
 }
 
+button:hover {
+  background-color: #29805fd8;
+}
+
+@media (max-width: 390px) {  /* iphone 14 */
+  .parfum-image {
+    width: 300px;
+    height: 350px;
+    border-radius: 10px;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .perfum-description {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 750px;
+  }
+}
 
